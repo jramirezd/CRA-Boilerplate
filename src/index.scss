@@ -24,7 +24,13 @@ div, section{
 @import './scss/03_molecules/buttons.scss';
 @import './scss/03_molecules/inputs.scss';
 
-//layout
+//Layout
 @import './scss/04_layout/header.scss';
 @import './scss/04_layout/main.scss';
 @import './scss/04_layout/footer.scss';
+
+// Generic classes
+@import './scss/04_layout/generics.scss';
+
+//Counter
+@import './scss/07_components/counter.scss';
