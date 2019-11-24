@@ -1,0 +1,15 @@
+button{
+    padding: 16px;
+    color: #fff;
+    background-color: $pc;
+    font-size: 16px;
+    border-radius: 4px;
+    border: none;
+    @media only screen and (min-width: $tablet){
+      cursor: pointer;
+      &:hover{
+        background-color: $sc;
+        color: white;
+      }
+    }
+  }

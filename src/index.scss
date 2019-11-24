@@ -1,0 +1,30 @@
+@import './scss/01_variables/colours.scss';
+@import './scss/01_variables/media.scss';
+@import './scss/02_mixins/media.scss';
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: content-box;
+}
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+}
+div, section{
+  box-sizing: content-box;
+}
+
+@import './scss/03_molecules/buttons.scss';
+@import './scss/03_molecules/inputs.scss';
+
+//layout
+@import './scss/04_layout/header.scss';
+@import './scss/04_layout/main.scss';
+@import './scss/04_layout/footer.scss';
