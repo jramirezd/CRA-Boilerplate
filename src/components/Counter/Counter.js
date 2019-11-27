@@ -3,10 +3,10 @@ import { connect, useSelector, useDispatch } from 'react-redux';
 
 
 const Counter = () => {
-  const count = useSelector(state => state.count);
+  const { count } = useSelector((state) => ({
+    ...state.count
+  }));
   const dispatch = useDispatch();
-
-
   return (
     <div className="counter">
       <div className={`num ${count < 0 ? 'red' : ''}`}>{count}</div>

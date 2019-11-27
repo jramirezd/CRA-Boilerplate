@@ -1,14 +1,17 @@
-const INITIAL_STATE = { count: 0 };
 
-const countReducer = (state = INITIAL_STATE, action) => {
-  const { count } = state;
-
+const countReducer = (state = { count: 0 }, action) => {
   switch (action.type) {
     case 'SUMA': {
-      return { num: count + 1 };
+      return {
+        ...state,
+        count: state.count + 1
+      };
     }
     case 'RESTA': {
-      return { num: count - 1 };
+      return {
+        ...state,
+        count: state.count - 1
+      };
     }
     default: {
       return state;

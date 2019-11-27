@@ -7,9 +7,10 @@ import reducers from './redux/reducers';
 import App from './App';
 import * as serviceWorker from './serviceWorker';
 
-const store = createStore(
-  reducers
-);
+
+const INITIAL_STATE = {};
+
+const store = createStore(reducers, INITIAL_STATE);
 
 ReactDOM.render(
   <Provider store={store}>
