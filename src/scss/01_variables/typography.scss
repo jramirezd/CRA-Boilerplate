@@ -1,0 +1,127 @@
+@font-face {
+    font-family: 'Open Sans';
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+    src: local('Open Sans Light'),
+    url('/01_fonts/OpenSans-Light.woff2') format('woff2'),
+    url('/01_fonts/OpenSans-Light.woff') format('woff'),
+    url('/01_fonts/OpenSans-Light.ttf') format('truetype'),
+    url('/01_fonts/OpenSans-Light.eot') format('embedded-opentype');
+    unicode-range: U+000-5FF; /* Latin glyphs */
+}
+@font-face {
+    font-family: 'Open Sans';
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+    src: local('Open Sans Regular'),
+    url('/01_fonts/OpenSans-Regular.woff2') format("woff2"),
+    url('/01_fonts/OpenSans-Regular.woff') format("woff"),
+    url('/01_fonts/OpenSans-Regular.ttf') format('truetype'),
+    url('/01_fonts/OpenSans-Regular.eot') format('embedded-opentype');
+    unicode-range: U+000-5FF; /* Latin glyphs */
+}
+@font-face {
+    font-family: 'Open Sans';
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+    src: local('Open Sans Semibold'),
+    url('/01_fonts/OpenSans-Semibold.woff2') format("woff2"),
+    url('/01_fonts/OpenSans-Semibold.woff') format("woff"),
+    url('/01_fonts/OpenSans-Semibold.ttf') format('truetype'),
+    url('/01_fonts/OpenSans-Semibold.eot') format('embedded-opentype');
+    unicode-range: U+000-5FF; /* Latin glyphs */
+}
+@font-face {
+    font-family: 'Open Sans';
+    font-weight: 700;
+    font-style: normal;
+    font-display: swap;
+    src: local('Open Sans Bold'),
+    url('/01_fonts/OpenSans-Bold.woff2') format("woff2"),
+    url('/01_fonts/OpenSans-Bold.woff') format("woff"),
+    url('/01_fonts/OpenSans-Bold.ttf') format('truetype'),
+    url('/01_fonts/OpenSans-Bold.eot') format('embedded-opentype');
+    unicode-range: U+000-5FF; /* Latin glyphs */
+}
+
+@font-face {
+    font-family: 'Hind';
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+    src: local('Hind Light'),
+    url('/01_fonts/hind-light-webfont.woff2') format('woff2'),
+    url('/01_fonts/hind-light-webfont.woff') format('woff'),
+    url('/01_fonts/hind-light-webfont.ttf') format('truetype'),
+    url('/01_fonts/hind-light-webfont.eot') format('embedded-opentype');
+    unicode-range: U+000-5FF; /* Latin glyphs */
+}
+@font-face {
+    font-family: 'Hind';
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+    src: local('Hind Regular'),
+    url('/01_fonts/hind-regular-webfont.woff2') format('woff2'),
+    url('/01_fonts/hind-regular-webfont.woff') format('woff'),
+    url('/01_fonts/hind-regular-webfont.ttf') format('truetype'),
+    url('/01_fonts/hind-regular-webfont.eot') format('embedded-opentype');
+    unicode-range: U+000-5FF; /* Latin glyphs */
+}
+@font-face {
+    font-family: 'Hind';
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+    src: local('Hind Semibold'),
+    url('/01_fonts/hind-semibold-webfont.woff2') format('woff2'),
+    url('/01_fonts/hind-semibold-webfont.woff') format('woff'),
+    url('/01_fonts/hind-semibold-webfont.ttf') format('truetype'),
+    url('/01_fonts/hind-semibold-webfont.eot') format('embedded-opentype');
+    unicode-range: U+000-5FF; /* Latin glyphs */
+}
+@font-face {
+    font-family: 'Hind';
+    font-weight: 700;
+    font-style: normal;
+    font-display: swap;
+    src: local('Hind Bold'),
+    url('/01_fonts/hind-bold-webfont.woff2') format('woff2'),
+    url('/01_fonts/hind-bold-webfont.woff') format('woff'),
+    url('/01_fonts/hind-bold-webfont.ttf') format('truetype'),
+    url('/01_fonts/hind-bold-webfont.eot') format('embedded-opentype');
+    unicode-range: U+000-5FF; /* Latin glyphs */
+}
+
+@font-face {
+    font-family: 'Montserrat';
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+    src: local('Montserrat'),
+    url('/01_fonts/montserrat-regular-webfont.woff2') format('woff2'),
+    url('/01_fonts/montserrat-regular-webfont.woff') format('woff'),
+    url('/01_fonts/montserrat-regular-webfont.ttf') format('truetype'),
+    url('/01_fonts/montserrat-regular-webfont.eot') format('embedded-opentype');
+    unicode-range: U+000-5FF; /* Latin glyphs */
+}
+@font-face {
+    font-family: 'Montserrat';
+    font-weight: 700;
+    font-style: normal;
+    font-display: swap;
+    src: url('/01_fonts/montserrat-bold-webfont.eot');
+    src: local('montserrat-bold-webfont'),
+    url('/01_fonts/montserrat-bold-webfont.woff2') format('woff2'),
+    url('/01_fonts/montserrat-bold-webfont.woff') format('woff'),
+    url('/01_fonts/montserrat-bold-webfont.ttf') format('truetype'),
+    url('/01_fonts/montserrat-bold-webfont.eot') format('embedded-opentype');
+    unicode-range: U+000-5FF; /* Latin glyphs */
+}
+
+/* GLOBAL FONTS */
+$typo-primary: 'Hind', sans-serif;
+$typo-secondary: 'Montserrat', sans-serif;
