@@ -1,0 +1,163 @@
+.hide-desktop {
+    @include media(tablet) {
+        display: none !important;
+    }
+}
+.hide-mobile {
+    display: none !important;
+    @include media(tablet) {
+        display: block !important;
+    }
+
+    &.flex {
+        @include media(tablet) {
+            display: flex !important;
+        }
+    }
+}
+
+// background-colors
+.bg-white {
+    background-color: $white;
+}
+
+.bg-grey {
+	background-color: $bg-layout;
+}
+
+.bg-grey-dark {
+	background-color: $grey-dark_0;
+}
+
+.bg-neutral {
+    background-color: $bg_component;
+}
+.bg-neutral-0 {
+    background-color: $neutral_0;
+}
+
+.bg-black {
+	background-color: $grey-dark_1;
+}
+
+.bg-transparent {
+	background-color: transparent;
+}
+
+.bg-principal {
+ 	background-color: $primary;
+}
+
+.bg-secondary {
+    background-color: $secondary;
+}
+.clearfix{
+    @include clearfix;
+}
+
+// Display
+.block {display: block;}
+.inline {display: inline;}
+.inline-block {display: inline-block;}
+.text-center {text-align: center;}
+
+// sizes
+.w-100 {
+ 	width: 100%;
+}
+
+.h-100 {
+	height:100%;
+}
+
+.f-left {
+	float:left;
+}
+
+.f-right {
+	float:right;
+}
+
+.h-100vh {
+    height: 100vh;
+}
+
+.round-100 {
+	border-radius: 50%;
+}
+
+.m-auto {
+    margin: 0 auto;
+}
+
+// Vertical align
+.v-align {
+    &.middle {vertical-align: middle;}
+}
+
+// Underline
+.underline {text-decoration: underline;}
+
+// Position relative
+.relative {position: relative;}
+
+//Text
+.extra-bold {font-weight: 800 !important;}
+.bold {font-weight: 600 !important;}
+.regular {font-weight: 400 !important;}
+.slim {font-weight: 300 !important;}
+
+.text {
+    font-size: $f-m;
+    font-weight: 400;
+    color: $text-light;
+    line-height: 24px;
+    strong {font-weight: 600;}
+
+    &.f-12 {font-size: $f-xs;}
+    &.f-13 {font-size: 13px;}
+    &.f-14 {font-size: $f-s;}
+    &.f-18 {font-size: $f-l;}
+
+    &.light {color: $text-heading-l;}
+    &.medium {color: $text-medium;}
+    &.dark {color: $text-heading;}
+
+    &.lh-20 {line-height: 20px;}
+    &.lh-22 {line-height: 22px;}
+    &.lh-26 {line-height: 26px;}
+    &.lh-28 {line-height: 28px;}
+    &.lh-none {line-height: 10px;}
+}
+
+
+.body-text {
+    font-size: $f-l;
+    line-height: 28px;
+    color: $text-heading;
+}
+
+.light-text {
+    font-weight: 300;
+    color: $text-light-gray;
+    line-height: 22px;
+    &.blue {color: $text-heading-l;}
+    &.med {font-size: $f-m;}
+    &.big {font-size: $f-l;}
+    strong {font-weight: 600;}
+}
+.recommended{
+    div{
+        float: left;
+        margin-right: $s-m;
+        &.f-right{
+            float: right;
+        }
+    }
+    span{
+        color: $accent_secondary;
+    }
+    .line-space{
+        color: $text-light-gray;
+    }
+}
